@@ -1,0 +1,550 @@
+22 Nov 2016 11:52:07  INFO logger - .
+22 Nov 2016 11:52:07  INFO logger - Google page loaded successfully
+22 Nov 2016 11:52:52  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 11:52:52  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 11:55:29  INFO logger - .
+22 Nov 2016 11:55:29  INFO logger - Google page loaded successfully
+22 Nov 2016 11:55:30  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 11:55:30  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 11:57:30  INFO logger - .
+22 Nov 2016 11:57:30  INFO logger - Google page loaded successfully
+22 Nov 2016 11:57:31  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 11:58:58  INFO logger - .
+22 Nov 2016 11:58:58  INFO logger - Google page loaded successfully
+22 Nov 2016 11:58:58  INFO logger - .
+22 Nov 2016 11:58:58  INFO logger - Google page loaded successfully
+22 Nov 2016 11:58:58  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:05:43  INFO logger - .
+22 Nov 2016 12:05:43  INFO logger - Google page loaded successfully
+22 Nov 2016 12:05:43  INFO logger - .
+22 Nov 2016 12:05:43  INFO logger - Google page loaded successfully
+22 Nov 2016 12:05:43  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:12:32  INFO logger - .
+22 Nov 2016 12:12:32  INFO logger - Google page loaded successfully
+22 Nov 2016 12:12:32  INFO logger - .
+22 Nov 2016 12:12:32  INFO logger - Google page loaded successfully
+22 Nov 2016 12:12:32  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:13:59  INFO logger - .
+22 Nov 2016 12:13:59  INFO logger - Google page loaded successfully
+22 Nov 2016 12:13:59  INFO logger - .
+22 Nov 2016 12:13:59  INFO logger - Google page loaded successfully
+22 Nov 2016 12:13:59  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:19:26  INFO logger - .
+22 Nov 2016 12:19:26  INFO logger - Google page loaded successfully
+22 Nov 2016 12:19:26  INFO logger - .
+22 Nov 2016 12:19:26  INFO logger - Google page loaded successfully
+22 Nov 2016 12:19:55  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:23:28  INFO logger - .
+22 Nov 2016 12:23:28  INFO logger - Google page loaded successfully
+22 Nov 2016 12:23:28  INFO logger - .
+22 Nov 2016 12:23:28  INFO logger - Google page loaded successfully
+22 Nov 2016 12:24:04  INFO logger - .
+22 Nov 2016 12:24:04  INFO logger - Google page loaded successfully
+22 Nov 2016 12:24:05  INFO logger - .
+22 Nov 2016 12:24:05  INFO logger - Google page loaded successfully
+22 Nov 2016 12:24:06  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:36:15  INFO logger - .
+22 Nov 2016 12:36:15  INFO logger - Google page loaded successfully
+22 Nov 2016 12:36:15  INFO logger - .
+22 Nov 2016 12:36:15  INFO logger - Google page loaded successfully
+22 Nov 2016 12:36:17  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:36:49  INFO logger - .
+22 Nov 2016 12:36:49  INFO logger - Google page loaded successfully
+22 Nov 2016 12:36:49  INFO logger - .
+22 Nov 2016 12:36:49  INFO logger - Google page loaded successfully
+22 Nov 2016 12:36:51  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:40:24  INFO logger - .
+22 Nov 2016 12:40:24  INFO logger - Google page loaded successfully
+22 Nov 2016 12:40:48  INFO logger - Exception while taking screenshot chrome not reachable
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 4.4.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'shanky-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e), userDataDir=/tmp/.org.chromium.Chromium.Jomo6K}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b6e67e13d20fb4fbf03d6d8617b8a74
+22 Nov 2016 12:40:48  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:40:59  INFO logger - .
+22 Nov 2016 12:40:59  INFO logger - Google page loaded successfully
+22 Nov 2016 12:41:45  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 12:41:45  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:42:38  INFO logger - .
+22 Nov 2016 12:42:38  INFO logger - Google page loaded successfully
+22 Nov 2016 12:42:38  INFO logger - .
+22 Nov 2016 12:42:38  INFO logger - Google page loaded successfully
+22 Nov 2016 12:42:39  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:43:05  INFO logger - .
+22 Nov 2016 12:43:05  INFO logger - Google page loaded successfully
+22 Nov 2016 12:43:05  INFO logger - .
+22 Nov 2016 12:43:05  INFO logger - Google page loaded successfully
+22 Nov 2016 12:43:07  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:56:22  INFO logger - .
+22 Nov 2016 12:56:22  INFO logger - Google page loaded successfully
+22 Nov 2016 12:56:24  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 12:56:24  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:57:07  INFO logger - .
+22 Nov 2016 12:57:07  INFO logger - Google page loaded successfully
+22 Nov 2016 12:57:08  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 12:57:08  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:57:15  INFO logger - .
+22 Nov 2016 12:57:15  INFO logger - Google page loaded successfully
+22 Nov 2016 12:57:16  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 12:57:16  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 12:58:31  INFO logger - .
+22 Nov 2016 12:58:31  INFO logger - Google page loaded successfully
+22 Nov 2016 12:59:16  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 12:59:16  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:00:05  INFO logger - .
+22 Nov 2016 13:00:05  INFO logger - Google page loaded successfully
+22 Nov 2016 13:00:07  INFO logger - .
+22 Nov 2016 13:00:07  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:00:07  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:00:21  INFO logger - .
+22 Nov 2016 13:00:21  INFO logger - Google page loaded successfully
+22 Nov 2016 13:00:24  INFO logger - .
+22 Nov 2016 13:00:24  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:00:24  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:00:48  INFO logger - .
+22 Nov 2016 13:00:48  INFO logger - Google page loaded successfully
+22 Nov 2016 13:00:48  INFO logger - .
+22 Nov 2016 13:00:48  INFO logger - Google page loaded successfully
+22 Nov 2016 13:00:50  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:00:53  INFO logger - .
+22 Nov 2016 13:00:53  INFO logger - Google page loaded successfully
+22 Nov 2016 13:00:55  INFO logger - .
+22 Nov 2016 13:00:55  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:00:55  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:00:56  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:01:36  INFO logger - .
+22 Nov 2016 13:01:36  INFO logger - Google page loaded successfully
+22 Nov 2016 13:02:21  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 13:02:21  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:02:47  INFO logger - .
+22 Nov 2016 13:02:47  INFO logger - Google page loaded successfully
+22 Nov 2016 13:02:50  INFO logger - .
+22 Nov 2016 13:02:50  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:02:50  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:03:02  INFO logger - .
+22 Nov 2016 13:03:02  INFO logger - Google page loaded successfully
+22 Nov 2016 13:03:03  INFO logger - .
+22 Nov 2016 13:03:03  INFO logger - Google page loaded successfully
+22 Nov 2016 13:03:04  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:11:38  INFO logger - .
+22 Nov 2016 13:11:38  INFO logger - Google page loaded successfully
+22 Nov 2016 13:11:39  INFO logger - .
+22 Nov 2016 13:11:39  INFO logger - Google page loaded successfully
+22 Nov 2016 13:11:40  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:27:30  INFO logger - .
+22 Nov 2016 13:27:30  INFO logger - Google page loaded successfully
+22 Nov 2016 13:27:31  INFO logger - .
+22 Nov 2016 13:27:31  INFO logger - Google page loaded successfully
+22 Nov 2016 13:27:32  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:28:43  INFO logger - .
+22 Nov 2016 13:28:43  INFO logger - Google page loaded successfully
+22 Nov 2016 13:33:30  INFO logger - .
+22 Nov 2016 13:33:30  INFO logger - Google page loaded successfully
+22 Nov 2016 13:34:39  INFO logger - .
+22 Nov 2016 13:34:39  INFO logger - Google page loaded successfully
+22 Nov 2016 13:34:39  INFO logger - .
+22 Nov 2016 13:34:39  INFO logger - Google page loaded successfully
+22 Nov 2016 13:34:40  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:34:48  INFO logger - .
+22 Nov 2016 13:34:48  INFO logger - Google page loaded successfully
+22 Nov 2016 13:34:51  INFO logger - .
+22 Nov 2016 13:34:51  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:34:51  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:35:14  INFO logger - .
+22 Nov 2016 13:35:14  INFO logger - Google page loaded successfully
+22 Nov 2016 13:35:14  INFO logger - .
+22 Nov 2016 13:35:14  INFO logger - Google page loaded successfully
+22 Nov 2016 13:35:16  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:35:23  INFO logger - .
+22 Nov 2016 13:35:23  INFO logger - Google page loaded successfully
+22 Nov 2016 13:35:27  INFO logger - .
+22 Nov 2016 13:35:27  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:35:27  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:36:02  INFO logger - .
+22 Nov 2016 13:36:02  INFO logger - Google page loaded successfully
+22 Nov 2016 13:36:02  INFO logger - .
+22 Nov 2016 13:36:02  INFO logger - Google page loaded successfully
+22 Nov 2016 13:36:03  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:36:06  INFO logger - .
+22 Nov 2016 13:36:06  INFO logger - Google page loaded successfully
+22 Nov 2016 13:36:09  INFO logger - .
+22 Nov 2016 13:36:09  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:36:09  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:36:20  INFO logger - .
+22 Nov 2016 13:36:20  INFO logger - Google page loaded successfully
+22 Nov 2016 13:36:20  INFO logger - ClassName :pages.Homepage
+22 Nov 2016 13:36:20  INFO logger - MethodName :findElement
+22 Nov 2016 13:36:20  INFO logger - Exception :Element not found By.cssSelector: #sblsbb > button > span
+22 Nov 2016 13:36:20  INFO logger - -----------------------------------------------------------------------------------
+22 Nov 2016 13:36:20  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 13:36:20  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:36:24  INFO logger - .
+22 Nov 2016 13:36:24  INFO logger - Google page loaded successfully
+22 Nov 2016 13:36:26  INFO logger - .
+22 Nov 2016 13:36:26  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:36:26  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:36:46  INFO logger - .
+22 Nov 2016 13:36:46  INFO logger - Google page loaded successfully
+22 Nov 2016 13:36:46  INFO logger - .
+22 Nov 2016 13:36:46  INFO logger - Google page loaded successfully
+22 Nov 2016 13:36:47  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:36:51  INFO logger - .
+22 Nov 2016 13:36:51  INFO logger - Google page loaded successfully
+22 Nov 2016 13:36:54  INFO logger - .
+22 Nov 2016 13:36:54  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:36:54  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:37:06  INFO logger - .
+22 Nov 2016 13:37:06  INFO logger - Google page loaded successfully
+22 Nov 2016 13:37:06  INFO logger - .
+22 Nov 2016 13:37:06  INFO logger - Google page loaded successfully
+22 Nov 2016 13:37:07  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:37:10  INFO logger - .
+22 Nov 2016 13:37:10  INFO logger - Google page loaded successfully
+22 Nov 2016 13:37:10  INFO logger - ClassName :pages.Homepage
+22 Nov 2016 13:37:10  INFO logger - MethodName :findElement
+22 Nov 2016 13:37:10  INFO logger - Exception :Element not found By.cssSelector: #sblsbb > button > span
+22 Nov 2016 13:37:10  INFO logger - -----------------------------------------------------------------------------------
+22 Nov 2016 13:37:10  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 13:37:10  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:40:39  INFO logger - .
+22 Nov 2016 13:40:39  INFO logger - Google page loaded successfully
+22 Nov 2016 13:40:39  INFO logger - .
+22 Nov 2016 13:40:39  INFO logger - Google page loaded successfully
+22 Nov 2016 13:40:40  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:40:43  INFO logger - .
+22 Nov 2016 13:40:43  INFO logger - Google page loaded successfully
+22 Nov 2016 13:41:14  INFO logger - Exception while taking screenshot chrome not reachable
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 4.4.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'shanky-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e), userDataDir=/tmp/.org.chromium.Chromium.ppoTz4}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 674b8d7edf355e2098214f96ab26e29b
+22 Nov 2016 13:41:14  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:41:26  INFO logger - .
+22 Nov 2016 13:41:26  INFO logger - Google page loaded successfully
+22 Nov 2016 13:41:26  INFO logger - .
+22 Nov 2016 13:41:26  INFO logger - Google page loaded successfully
+22 Nov 2016 13:41:28  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:41:32  INFO logger - .
+22 Nov 2016 13:41:32  INFO logger - Google page loaded successfully
+22 Nov 2016 13:41:34  INFO logger - .
+22 Nov 2016 13:41:34  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:41:34  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:52:20  INFO logger - .
+22 Nov 2016 13:52:20  INFO logger - Google page loaded successfully
+22 Nov 2016 13:53:06  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 13:53:06  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:53:09  INFO logger - .
+22 Nov 2016 13:53:09  INFO logger - Google page loaded successfully
+22 Nov 2016 13:53:09  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 13:53:09  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:54:05  INFO logger - .
+22 Nov 2016 13:54:05  INFO logger - Google page loaded successfully
+22 Nov 2016 13:54:05  INFO logger - .
+22 Nov 2016 13:54:05  INFO logger - Google page loaded successfully
+22 Nov 2016 13:54:07  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:54:10  INFO logger - .
+22 Nov 2016 13:54:10  INFO logger - Google page loaded successfully
+22 Nov 2016 13:54:11  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 13:54:11  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:55:19  INFO logger - .
+22 Nov 2016 13:55:19  INFO logger - Google page loaded successfully
+22 Nov 2016 13:55:20  INFO logger - .
+22 Nov 2016 13:55:20  INFO logger - Google page loaded successfully
+22 Nov 2016 13:55:21  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:55:24  INFO logger - .
+22 Nov 2016 13:55:24  INFO logger - Google page loaded successfully
+22 Nov 2016 13:55:27  INFO logger - .
+22 Nov 2016 13:55:27  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:55:27  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:58:38  INFO logger - .
+22 Nov 2016 13:58:38  INFO logger - Google page loaded successfully
+22 Nov 2016 13:58:38  INFO logger - .
+22 Nov 2016 13:58:38  INFO logger - Google page loaded successfully
+22 Nov 2016 13:58:39  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 13:58:42  INFO logger - .
+22 Nov 2016 13:58:42  INFO logger - Google page loaded successfully
+22 Nov 2016 13:58:45  INFO logger - .
+22 Nov 2016 13:58:45  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 13:58:45  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:33:59  INFO logger - .
+22 Nov 2016 14:33:59  INFO logger - Google page loaded successfully
+22 Nov 2016 14:34:40  INFO logger - .
+22 Nov 2016 14:34:40  INFO logger - .
+22 Nov 2016 14:34:40  INFO logger - .
+22 Nov 2016 14:34:40  INFO logger - .
+22 Nov 2016 14:34:40  INFO logger - .
+22 Nov 2016 14:34:40  INFO logger - .
+22 Nov 2016 14:34:40  INFO logger - Google page loaded successfully
+22 Nov 2016 14:35:25  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 14:35:25  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:35:27  INFO logger - .
+22 Nov 2016 14:35:27  INFO logger - Google page loaded successfully
+22 Nov 2016 14:38:06  INFO logger - .
+22 Nov 2016 14:38:06  INFO logger - Google page loaded successfully
+22 Nov 2016 14:38:51  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 14:38:51  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:38:53  INFO logger - .
+22 Nov 2016 14:38:53  INFO logger - Google page loaded successfully
+22 Nov 2016 14:39:39  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+22 Nov 2016 14:39:39  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - .
+22 Nov 2016 14:42:50  INFO logger - Google page loaded successfully
+22 Nov 2016 14:44:15  INFO logger - .
+22 Nov 2016 14:44:15  INFO logger - .
+22 Nov 2016 14:44:15  INFO logger - .
+22 Nov 2016 14:44:15  INFO logger - .
+22 Nov 2016 14:44:15  INFO logger - .
+22 Nov 2016 14:44:15  INFO logger - .
+22 Nov 2016 14:44:15  INFO logger - .
+22 Nov 2016 14:44:15  INFO logger - Google page loaded successfully
+22 Nov 2016 14:44:16  INFO logger - .
+22 Nov 2016 14:44:16  INFO logger - Google page loaded successfully
+22 Nov 2016 14:44:18  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:44:20  INFO logger - .
+22 Nov 2016 14:44:20  INFO logger - Google page loaded successfully
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:23  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:24  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - .
+22 Nov 2016 14:44:25  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 14:44:26  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:04  INFO logger - .
+22 Nov 2016 14:45:05  INFO logger - .
+22 Nov 2016 14:45:05  INFO logger - .
+22 Nov 2016 14:45:05  INFO logger - Google page loaded successfully
+22 Nov 2016 14:45:05  INFO logger - .
+22 Nov 2016 14:45:05  INFO logger - Google page loaded successfully
+22 Nov 2016 14:45:07  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:09  INFO logger - .
+22 Nov 2016 14:45:10  INFO logger - .
+22 Nov 2016 14:45:10  INFO logger - .
+22 Nov 2016 14:45:10  INFO logger - .
+22 Nov 2016 14:45:10  INFO logger - Google page loaded successfully
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:12  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - .
+22 Nov 2016 14:45:13  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 14:45:13  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:51:35  INFO logger - .
+22 Nov 2016 14:51:35  INFO logger - .
+22 Nov 2016 14:51:35  INFO logger - .
+22 Nov 2016 14:51:35  INFO logger - .
+22 Nov 2016 14:51:35  INFO logger - .
+22 Nov 2016 14:51:35  INFO logger - .
+22 Nov 2016 14:51:35  INFO logger - .
+22 Nov 2016 14:51:35  INFO logger - .
+22 Nov 2016 14:51:35  INFO logger - Google page loaded successfully
+22 Nov 2016 14:51:36  INFO logger - .
+22 Nov 2016 14:51:36  INFO logger - Google page loaded successfully
+22 Nov 2016 14:51:38  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:51:40  INFO logger - .
+22 Nov 2016 14:51:40  INFO logger - Google page loaded successfully
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - .
+22 Nov 2016 14:51:43  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 14:51:44  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:54:17  INFO logger - .
+22 Nov 2016 14:54:17  INFO logger - Google page loaded successfully
+22 Nov 2016 14:54:17  INFO logger - .
+22 Nov 2016 14:54:17  INFO logger - Google page loaded successfully
+22 Nov 2016 14:54:18  INFO logger - Shutting down driver
+----------------------------------------------
+22 Nov 2016 14:54:22  INFO logger - .
+22 Nov 2016 14:54:22  INFO logger - Google page loaded successfully
+22 Nov 2016 14:54:24  INFO logger - .
+22 Nov 2016 14:54:24  INFO logger - selenium bdd framework - Google Search page loaded successfully
+22 Nov 2016 14:54:25  INFO logger - Shutting down driver
+----------------------------------------------

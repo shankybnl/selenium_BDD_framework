@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: scenario2.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: selenium bdd frameworks images on google</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: search selenium bdd frameworks images on google search</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user is on google search page &quot;https:&#x2F;&#x2F;www.google.co.in&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  searches for &quot;selenium bdd framework&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user clicks on image tab (failed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  the results images should be displayed (skipped)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5604" started-at="2016-11-22T07:27:10Z" finished-at="2016-11-22T07:27:16Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:logic.TestRunner@18eed359]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="selenium-bdd-framework" duration-ms="5604" started-at="2016-11-22T07:27:10Z" finished-at="2016-11-22T07:27:16Z">
+      <class name="logic.TestRunner">
+        <test-method status="FAIL" signature="run_cukes()[pri:0, instance:logic.TestRunner@18eed359]" name="run_cukes" duration-ms="5583" started-at="2016-11-22T12:57:11Z" description="Runs Cucumber Features" finished-at="2016-11-22T12:57:16Z">
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (277, 89). Other element would receive the click: <b>...</b>
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 4.4.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'shanky-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e), userDataDir=/tmp/.org.chromium.Chromium.s0Nn88}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3563e211dac74102d5ded7e1d5177bb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (277, 89). Other element would receive the click: <b>...</b>
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 4.4.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'shanky-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e), userDataDir=/tmp/.org.chromium.Chromium.s0Nn88}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3563e211dac74102d5ded7e1d5177bb9
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:196)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:208)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:635)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (277, 89). Other element would receive the click: <b>...</b>
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e),platform=Linux 4.4.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'shanky-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e), userDataDir=/tmp/.org.chromium.Chromium.s0Nn88}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.71, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3563e211dac74102d5ded7e1d5177bb9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at logic.HomePageHelper.user_clicks_on_image_tab(HomePageHelper.java:123)
+	at ✽.When user clicks on image tab(scenario2.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: scenario2.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: selenium bdd frameworks images on google</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: search selenium bdd frameworks images on google search</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user is on google search page &quot;https:&#x2F;&#x2F;www.google.co.in&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  searches for &quot;selenium bdd framework&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user clicks on image tab (failed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  the results images should be displayed (skipped)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- logic.TestRunner -->
+    </test> <!-- selenium-bdd-framework -->
+  </suite> <!-- Suite -->
+</testng-results>
