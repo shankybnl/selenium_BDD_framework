@@ -3,7 +3,7 @@
 Behavioural driven development automation framework using selenium, cucumber-java, testng, maven, phantomjs
 
 
-Tools and technologies used:
+**Tools and technologies used:**
 
 1. Language: Java 8
 2. Testing framework: Testng
@@ -14,25 +14,32 @@ Tools and technologies used:
 7. Headless browser: Phantomjs
 
 Setting up the project:
+
 $ cd selenium_BDD_framework
+
 $ mvn clean install
 
 
 Running the tests: There are 2 scenarios named as @scenario1 and @scenario2. Ran the tests on chrome54.0, firefox46 on ubuntu 14.04 64 bit
 
 To run both scenarios (@scenario1 and @scenario2) (by default browser would be chrome):
+
 $ mvn test
 
 To run test with configurable browser (for firefox, use -Dbrowser=firefox)
+
 $ mvn test -Dbrowser=chrome
 
 To run tests headlessly
+
 $ mvn test -Dheadless=yes
 
 To run specific scenario:
+
 $ mvn test -Dcucumber.options="--tags @scenario3"
 
 To run multiple mentioned scenarios:
+
 $ mvn test -Dcucumber.options="--tags @scenario3,@scenario2"
 
 
@@ -45,10 +52,21 @@ Features of the framework:
 
 
 
+![image](images/image2.png)
 
-Features package: It contains all different scenarios (tests) files 
+**package: libs :** It has exe of chromedriver and phantomjs. This is required while creating the webdriver session.
 
-Framework: Contains framework level code which can be reused
+![image](images/image3.png)
+
+**package: features :** It contains all different features (tests) files. 
+
+
+**package: framework :** It includes the common classes (and methods) which are required by each test to perform actions. Below are classes in this package:
+
+![image](images/image4.png)
+
+
+**CreateSession.java** : All the methods to create a new session and destroy the session after the test(s) execution is over. Each test extends this class.
 
 Package: logger : It contains Log.java class which contains methods to show the logs on console and save the logs in LogFile.txt of each run.
 
