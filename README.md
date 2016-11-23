@@ -74,11 +74,11 @@ Test execution (Index.html) report will look as below:
 
 ##Setting up the project
 
-Install the maven and clone the build:
+Install the maven and clone the build then:
 
-$ cd selenium_BDD_framework
+**$ cd selenium_BDD_framework**
 
-$ mvn clean install
+**$ mvn clean install**
 
 
 
