@@ -15,9 +15,9 @@ Behavioural driven development automation framework using selenium, cucumber-jav
 
 
 ##Features of the framework
-1. BDD framework using Cucumber-jvm. Features can be written easily using Given,When, Then etc.
-2. Browser(chrome/firefox) can be configured at run time  from command line.
-3. Test can run in headless browser (Phantomjs), if required.
+1. BDD framework using Cucumber-jvm. Feature files can be written easily using Given,When, Then etc.
+2. Browser(chrome/firefox) can be configured at run time  from command line (or Continuous integration tool, if configured).
+3. Tests can run in headless browser (Phantomjs) by passing a parameter at run time.
 4. Screenshot would be taken if any scenario failed and saved under /outputFiles folder.
 5. Html report gets generated after each test run and can be found /target/cucumber-html-report/index.html
 
