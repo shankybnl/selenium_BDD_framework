@@ -22,12 +22,12 @@ Behavioural driven development automation framework using selenium, cucumber-jav
 5. Html report gets generated after each test run and can be found /target/cucumber-html-report/index.html
 
 
-**package: libs ** : It has exe of chromedriver and phantomjs. This is required while creating the webdriver session.
+**package: libs** : It has exe of chromedriver and phantomjs. This is required while creating the webdriver session.
 
 ![image](images/image2.png)
 
 
-**package: features ** : It contains all different features (tests) files. 
+**package: features** : It contains all different features (tests) files. 
 
 ![image](images/image3.png)
 
@@ -99,8 +99,8 @@ To run tests headlessly
 
 To run specific scenario:
 
-**$ mvn test -Dcucumber.options="--tags @scenario3"**
+**$ mvn test -Dcucumber.options="--tags @scenario2"**
 
 To run multiple mentioned scenarios:
 
-**$ mvn test -Dcucumber.options="--tags @scenario3,@scenario2"**
+**$ mvn test -Dcucumber.options="--tags @scenario1,@scenario2"**
