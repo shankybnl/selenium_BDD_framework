@@ -1,4 +1,4 @@
-package logic;
+package framework;
 
 
 import org.junit.runner.RunWith;
@@ -11,7 +11,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 @CucumberOptions (
 		monochrome = true,
-		features = "src/test/java/features", 
+		features = "src/test/java/features",
+		glue = {"logic","framework"},
 		plugin = {"pretty", "html:target/cucumber-html-report"},
 		tags = {"~@Ignore"}
 		)

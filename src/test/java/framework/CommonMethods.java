@@ -82,7 +82,8 @@ public class CommonMethods extends Assertions {
 	 */
 	public void clickOnElementUsingJs(By element){
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", element);
+		WebElement webElement = driver.findElement(element);
+		js.executeScript("arguments[0].click();", webElement);
 	}
 	
 	
@@ -174,6 +175,25 @@ public class CommonMethods extends Assertions {
 		}
 	}
 
+	/**
+	 *  method to wait for an element to be clickable
+	 * @param targetElement element to be clickable
+	 * @return true if element is clickable else throws TimeoutException
+	 */
+	public boolean waitForElementToBeClickable(By targetElement) {
+		try{
+			WebDriverWait wait = new WebDriverWait(driver, timeOut);
+			wait.until(ExpectedConditions.elementToBeClickable(targetElement));
+			return true;
+		}
+		catch(TimeoutException e ){
+			System.out.println("Element is not clickable: " + targetElement );
+			System.out.println();
+			System.out.println(e.getMessage());
+			throw new TimeoutException();
+
+		}
+	}
 
 
 	/**

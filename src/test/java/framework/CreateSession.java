@@ -1,25 +1,23 @@
-package logic;
+package framework;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.GregorianCalendar;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import logger.Log;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import framework.CommonMethods;
-import logger.Log;
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.GregorianCalendar;
 
 
 /**
@@ -36,13 +34,12 @@ public class CreateSession {
 	 */
 	private static ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>(); 
 
-	@Before
 	/**
 	 * method to create webdriver instance.
-	 * @throws MalformedURLException
 	 * @throws InterruptedException
 	 */
-	public void webDriver() throws InterruptedException, IOException {
+	@Before
+	public static void createDriver() {
 
 		// browser name value passed from command line
 		String browserName = System.getProperty("browser");
@@ -73,6 +70,7 @@ public class CreateSession {
 		}
 		// if browser name passed as firefox
 		else if(browserName.equalsIgnoreCase("Firefox")){
+			WebDriverManager.firefoxdriver().setup();
 			capability.setBrowserName("Firefox");
 			webDriver.set(new FirefoxDriver());
 
@@ -82,19 +80,25 @@ public class CreateSession {
 			String OS = System.getProperty("os.name");
 			if(OS.contains("Windows"))
 			{
-				System.setProperty("webdriver.chrome.driver", "libs\\chromedriver.exe");
+				WebDriverManager.chromedriver().setup();
 				capability.setBrowserName("Chrome");
 				capability.setPlatform(Platform.WIN8_1);
 				webDriver.set(new ChromeDriver());
 			}
-			if(OS.contains("Linux"))
+			else if(OS.contains("Linux"))
 			{
-				System.setProperty("webdriver.chrome.driver", "libs//chromedriver");
+				WebDriverManager.chromedriver().setup();
 				capability.setBrowserName("Chrome");
 				capability.setPlatform(Platform.LINUX);
 				webDriver.set(new ChromeDriver());
 			}
-
+			else if(OS.contains("Mac"))
+			{
+				WebDriverManager.chromedriver().setup();
+				capability.setBrowserName("Chrome");
+				capability.setPlatform(Platform.MAC);
+				webDriver.set(new ChromeDriver());
+			}
 		}
 		getWebDriver().manage().window().maximize();
 
