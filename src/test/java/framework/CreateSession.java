@@ -70,6 +70,7 @@ public class CreateSession {
 		}
 		// if browser name passed as firefox
 		else if(browserName.equalsIgnoreCase("Firefox")){
+			WebDriverManager.firefoxdriver().setup();
 			capability.setBrowserName("Firefox");
 			webDriver.set(new FirefoxDriver());
 
