@@ -21,11 +21,11 @@ public class Homepage extends CommonMethods {
 	}
 
 	
-	public By searchbox = By.cssSelector("#lst-ib");
-	public By searchButton = By.cssSelector("#sblsbb > button > span");
-	public By searchResults = By.cssSelector("#rso > div > div > div > h3 > a");
-	public By imagesButton = By.cssSelector("#hdtb-msb > div:nth-child(3) > a");
-	public By imageContainer = By.cssSelector("#rg_s > div:nth-child(1) > a > img");
+	public By searchbox = By.name("q");
+	public By searchButton = By.xpath("(//input[@value='Google Search'])[2]");
+	public By searchResults = By.xpath("//div[@id='tvcap']//div//div//a");
+	public By imagesButton = By.xpath("//a[@data-sc='I']");
+	public By imageContainer = By.id("islmp");
 	
 	
 	

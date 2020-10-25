@@ -1,22 +1,26 @@
 package logic;
 
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import framework.CreateSession;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import pages.Homepage;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import cucumber.api.java.en.*;
-import pages.Homepage;
-import framework.*;
 
 /**
  * This class contains methods to perform action on home page.
  * @author shanky
  *
  */
-public class HomePageHelper {
+public class HomePageHelper  {
 
 	Homepage homepage;
 	WebDriver driver ;
@@ -61,9 +65,9 @@ public class HomePageHelper {
 	 */
 	@When("^user clicks on search button$")
 	public void user_clicks_on_search_button() throws Throwable {
-		homepage.waitForVisibility(homepage.searchButton);
-		//homepage.clickOnElementUsingJs(homepage.searchButton);;
-		homepage.findElement(homepage.searchButton).click();
+		homepage.waitForPageToLoad("Google");
+		homepage.waitForElementToBeClickable(homepage.searchButton);
+		homepage.clickOnElementUsingJs(homepage.searchButton);
 	}
 
 
@@ -84,10 +88,6 @@ public class HomePageHelper {
 
 			if (!file.exists())
 				file.createNewFile();
-
-			//	writer = new FileWriter(csvFilePath);
-
-
 			pw = new PrintWriter(new File(csvFilePath));
 			StringBuilder sb = new StringBuilder();
 
@@ -132,8 +132,9 @@ public class HomePageHelper {
 	 */
 	@When("^user clicks on image tab$")
 	public void user_clicks_on_image_tab() throws Throwable {
-		homepage.waitForVisibility(homepage.imagesButton);
-		homepage.findElement(homepage.imagesButton).click();
+		homepage.waitForPageToLoad("Google Images");
+		homepage.waitForElementToBeClickable(homepage.imagesButton);
+		homepage.clickOnElementUsingJs(homepage.imagesButton);
 	}
 
 	/**
