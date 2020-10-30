@@ -13,7 +13,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		monochrome = true,
 		features = "src/test/java/features",
 		glue = {"logic","framework"},
-		plugin = {"pretty", "html:target/cucumber-html-report"},
+		plugin = {"pretty","json:target/cucumber.json", "html:target/cucumber-html-report"},
 		tags = {"~@Ignore"}
 		)
 public class TestRunner extends AbstractTestNGCucumberTests {

@@ -107,23 +107,12 @@
 					<source>1.8</source>
 					<target>1.8</target>
 
-
 					<systemPropertyVariables>
 						<property>
 							<name>browser</name>
 							<value>${browser}</value>
 						</property>
 					</systemPropertyVariables>
-
-<!-- 
-					<systemPropertyVariables>
-						<property>
-							<name>url</name>
-							<value>${url}</value>
-						</property>
-					</systemPropertyVariables>
-
- -->
 
 					<systemPropertyVariables>
 						<property>
@@ -132,8 +121,26 @@
 						</property>
 					</systemPropertyVariables>
 				</configuration>
-
-
+			</plugin>
+			<plugin>
+			<groupId>net.masterthought</groupId>
+			<artifactId>maven-cucumber-reporting</artifactId>
+			<version>2.8.0</version>
+			<executions>
+				<execution>
+					<id>execution</id>
+					<phase>test</phase>
+					<goals>
+						<goal>generate</goal>
+					</goals>
+					<configuration>
+						<projectName>Cucumber-Reporting</projectName>
+						<outputDirectory>${project.build.directory}/cucumber-report</outputDirectory>
+						<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+						<skippedFails>true</skippedFails>
+					</configuration>
+				</execution>
+			</executions>
 			</plugin>
 		</plugins>
 	</build>
