@@ -3,7 +3,7 @@
 Behavioural driven development automation framework using selenium, cucumber-java, testng, maven, phantomjs
 
 
-##Tools and technologies used:
+## Tools and technologies used:
 
 1. Language: Java 8
 2. Testing framework: Testng
@@ -12,9 +12,10 @@ Behavioural driven development automation framework using selenium, cucumber-jav
 5. Build tool: maven
 6. Logging: log4j
 7. Headless browser: Phantomjs
+8. Reporting: [cucumber reporting](https://github.com/damianszczepanik/cucumber-reporting)
 
 
-##Features of the framework
+## Features of the framework
 1. BDD framework using Cucumber-jvm. Feature files can be written easily using Given,When, Then etc.
 2. Browser(chrome/firefox) can be configured at run time  from command line (or Continuous integration tool, if configured).
 3. Tests can run in headless browser (Phantomjs) by passing a parameter at run time.
@@ -62,17 +63,19 @@ Behavioural driven development automation framework using selenium, cucumber-jav
 
 
 
-Index.html will have execution report:
+## Test report ##
 
-![image](images/image9.png)
+Once test execution is completed, go to target/cucumber-report folder and open feature-overview.html file
 
-Test execution (Index.html) report will look as below:
+![image](images/image14.png)
 
-![image](images/image12.png)
+You can see the test results at different level
+
+![image](images/image13.png)
 
 
 
-##Setting up the project
+# Setting up the project
 
 Install the maven and clone the build then:
 
@@ -82,7 +85,7 @@ Install the maven and clone the build then:
 
 
 
-##Execution of tests  
+## Execution of tests  
 There are 2 scenarios named as @scenario1 and @scenario2. Ran the tests on chrome54.0, firefox46 on ubuntu 14.04 64 bit
 
 To run both scenarios (@scenario1 and @scenario2) (by default browser would be chrome):
