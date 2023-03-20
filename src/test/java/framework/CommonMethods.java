@@ -32,6 +32,7 @@ import logger.Log;
  * @author shanky
  *
  */
+//test1
 public class CommonMethods extends Assertions {
 
 	WebDriver driver = null;
