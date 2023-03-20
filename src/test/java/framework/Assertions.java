@@ -17,6 +17,9 @@ import org.testng.Reporter;
  * All the validation methods and method to take screenshot 
  * are defined in this class.
  */
+//test1
+//test2
+//test3
 public class Assertions {
 	public boolean testCaseStatus = true;
 	private WebDriver driver;
