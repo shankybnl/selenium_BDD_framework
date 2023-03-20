@@ -18,6 +18,7 @@ import org.testng.Reporter;
  * are defined in this class.
  */
 //test1
+//test2
 public class Assertions {
 	public boolean testCaseStatus = true;
 	private WebDriver driver;
